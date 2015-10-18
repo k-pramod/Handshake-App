@@ -1,0 +1,111 @@
+﻿#mainContainer { opacity: 0.0 }
+
+.bodyContainer { opacity: 0.0; }
+
+#business-card {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#business-card
+
+div#bottomBar:hover { opacity: 0.5; }
+
+#bottomBar { z-index: 100; }
+
+.navbarSpacing { height: 100px; }
+
+div.class:hover { background-color: #dbdbdb; }
+
+div.class {
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.sampleRow { display: none; }
+
+#mainJumbotron {
+    height: 400px;
+    background-image: url('http://pramodk.net/images/logo3.png');
+    background-size: 51%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.task_overdue, .overdue { background-color: lightcoral; }
+
+#overdue { background-color: lightcoral; }
+
+.task_list-group-item { padding-bottom: 10px; }
+
+#tasks_highlight {
+    height: 150px;
+    overflow: auto;
+}
+
+.header_container_inline { margin-bottom: 1em; }
+
+.header_container_inline h3 { display: inline; }
+
+.noScroll { overflow: hidden; }
+
+body {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.header_inline { display: inline; }
+
+header { margin-bottom: 20px; }
+
+.link_color_inherit { color: inherit; }
+
+.link_color_inherit:hover { color: lightseagreen; }
+
+#eventTable td, #taskTable td { overflow: hidden; }
+
+#index_private_user_mainContainer { max-height: 500px; }
+
+.small-margins { margin: 0.2em 0em 0em 0em; }
+
+#center {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+#today-arrow { margin-top: 0.2em; }
+
+#taskAdder, #eventAdder { display: none; }
+
+.table-task-add td {
+    padding: 5px 5px 5px 5px;
+    vertical-align: top;
+}
+
+.pulseOnCreate { -webkit-animation: flash linear 2s 1; }
+
+@keyframes flash {
+    0% { opacity: 0 }
+
+    100% { opacity: 1 }
+}
+
+@keyframes flash {
+    from { background-color: lightblue; }
+
+    to { background-color: white; }
+}
+
+.task_card {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /*background-color: aliceblue;*/
+    overflow: hidden;
+}
+
+.width-250px { width: 250px; }

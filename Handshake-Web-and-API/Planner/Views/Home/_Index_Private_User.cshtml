@@ -1,0 +1,22 @@
+﻿@using Planner.Controllers
+@using Planner.Models
+@if (Session["type"].Equals("applicant"))
+
+{
+    var id = Session["userId"].ToString().AsInt();
+    var model = UsersController.GetConnectionsMVC(id);
+    <text>
+        <h2>Recruiters you have shared your info with</h2>
+    </text>
+    foreach (var item in model)
+    {
+        <div class="col-md-5" id="business-card">
+            <ul>
+                <h1>@item.fullName<br/><small>@item.tagline</small></h1>
+                <h5>Email: <a href="mailto:@item.email">@item.email</a></h5>
+                <a href="@item.resumeLink">@item.resumeLink</a>
+            </ul>
+        </div>
+        <div class="col-md-1"></div>
+    }
+}
